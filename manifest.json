@@ -1,0 +1,25 @@
+{
+  "name": "BoltSF – Safe Friends",
+  "short_name": "BoltSF",
+  "description": "Asistencia canina con inteligencia artificial para proteger a tus mejores amigos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FF5A5F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "education", "utilities"],
+  "lang": "es",
+  "dir": "ltr"
+}

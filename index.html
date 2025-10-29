@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoltSF – Safe Friends | Asistencia Canina con IA</title>
+    <meta name="description" content="Protege a tus mejores amigos con asistencia inmediata y consejos confiables sobre primeros auxilios caninos.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FF5A5F">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Preload Logo for Safari -->
+    <link rel="preload" as="image" href="https://res.cloudinary.com/djtijy2me/image/upload/v1761429434/Imagotipo_BoltSF_bui93z.png">
+    
+    <!-- Preload Hero Image -->
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=300&fit=crop&crop=center">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__container">
+                <div class="nav__logo">
+                    <picture>
+                        <source srcset="https://res.cloudinary.com/djtijy2me/image/upload/v1761429434/Imagotipo_BoltSF_bui93z.png" type="image/png">
+                        <img src="assets/logo-boltsf-backup.png" alt="BoltSF Logo" class="nav__logo-img">
+                    </picture>
+                    <span class="nav__logo-text">BoltSF</span>
+                </div>
+                <ul class="nav__menu">
+                    <li class="nav__item">
+                        <a href="#inicio" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+                <button class="nav__toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <div class="hero__image">
+                    <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=300&fit=crop&crop=center" 
+                         alt="Perro de Cúcuta, Colombia - BoltSF Safe Friends" 
+                         class="hero__pet-image">
+                </div>
+                <div class="hero__text">
+                    <h1 class="hero__title">BoltSF – Safe Friends</h1>
+                    <p class="hero__subtitle">Protege a tus mejores amigos con asistencia inmediata y consejos confiables.</p>
+                    <button class="hero__button" onclick="scrollToSection('contacto')">
+                        Contáctanos 🐾
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Information Section -->
+    <section class="info">
+        <div class="info__container">
+            <h2 class="info__title">¿Qué hace BoltSF?</h2>
+            <div class="info__grid">
+                <div class="info__card">
+                    <div class="info__card-image">
+                        <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=300&h=200&fit=crop&crop=center" 
+                             alt="Perro recibiendo primeros auxilios" 
+                             class="info__card-img">
+                    </div>
+                    <h3 class="info__card-title">Asistencia Inmediata</h3>
+                    <p class="info__card-text">Obtén respuestas rápidas y precisas sobre primeros auxilios caninos en situaciones de emergencia.</p>
+                </div>
+                <div class="info__card">
+                    <div class="info__card-image">
+                        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=300&h=200&fit=crop&crop=center" 
+                             alt="Veterinario cuidando perro" 
+                             class="info__card-img">
+                    </div>
+                    <h3 class="info__card-title">Consejos Confiables</h3>
+                    <p class="info__card-text">Información verificada por expertos veterinarios para el cuidado adecuado de tu mascota.</p>
+                </div>
+                <div class="info__card">
+                    <div class="info__card-image">
+                        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=300&h=200&fit=crop&crop=center" 
+                             alt="Perro feliz y saludable" 
+                             class="info__card-img">
+                    </div>
+                    <h3 class="info__card-title">Educación sobre Emergencias</h3>
+                    <p class="info__card-text">Aprende a identificar y manejar situaciones de emergencia canina de manera segura y efectiva.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="contact__container">
+            <div class="contact__header">
+                <div class="contact__image">
+                    <img src="https://images.unsplash.com/photo-1551717743-49959800b1f6?w=200&h=200&fit=crop&crop=center" 
+                         alt="Perro y dueño juntos" 
+                         class="contact__pet-image">
+                </div>
+                <div class="contact__text">
+                    <h2 class="contact__title">Contáctanos</h2>
+                    <p class="contact__subtitle">¿Tienes alguna duda o sugerencia? Nos encantaría escucharte.</p>
+                </div>
+            </div>
+            <form class="contact__form" action="https://formspree.io/f/tu_codigo_formspree" method="POST">
+                <div class="contact__form-group">
+                    <input 
+                        type="text" 
+                        name="nombre" 
+                        placeholder="Tu nombre" 
+                        required 
+                        class="contact__input"
+                    />
+                </div>
+                <div class="contact__form-group">
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Tu correo" 
+                        required 
+                        class="contact__input"
+                    />
+                </div>
+                <div class="contact__form-group">
+                    <textarea 
+                        name="mensaje" 
+                        placeholder="Cuéntanos tu duda o sugerencia..." 
+                        required 
+                        class="contact__textarea"
+                        rows="5"
+                    ></textarea>
+                </div>
+                <button type="submit" class="contact__button">
+                    Enviar mensaje
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <picture>
+                        <source srcset="https://res.cloudinary.com/djtijy2me/image/upload/v1761429434/Imagotipo_BoltSF_bui93z.png" type="image/png">
+                        <img src="assets/logo-boltsf-backup.png" alt="BoltSF Logo" class="footer__logo-img">
+                    </picture>
+                    <span class="footer__logo-text">BoltSF – Safe Friends</span>
+                </div>
+                <p class="footer__description">
+                    Asistencia canina con inteligencia artificial para proteger a tus mejores amigos.
+                </p>
+            </div>
+            <div class="footer__credits">
+                <p class="footer__credit">
+                    © 2025 BoltSF | Hecho en Cúcuta con amor ⚡️
+                </p>
+                <p class="footer__authors">
+                    Autores: Albert Orellano y Abdul Laiseca – Bootcamp IA Talento Tech 2025
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts/main.js"></script>
+    
+    <!-- Chatbase Floating Button -->
+    <script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="CnX-lebnZMHTkZTcjdYa7";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
+</body>
+</html>

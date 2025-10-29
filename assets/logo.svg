@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#FF5A5F" opacity="0.1"/>
+  
+  <!-- Main bolt shape -->
+  <path d="M100 30C85 30 70 35 70 40V50C70 60 80 70 90 70C100 70 110 60 110 50V40C110 35 95 30 100 30Z" fill="#FF5A5F"/>
+  <path d="M60 80C60 70 70 60 80 60H120C130 60 140 70 140 80V90C140 100 130 110 120 110H80C70 110 60 100 60 90V80Z" fill="#FF5A5F"/>
+  
+  <!-- Paw print -->
+  <circle cx="100" cy="130" r="15" fill="#FFC107"/>
+  <circle cx="85" cy="145" r="8" fill="#FFC107"/>
+  <circle cx="115" cy="145" r="8" fill="#FFC107"/>
+  <circle cx="100" cy="160" r="8" fill="#FFC107"/>
+  
+  <!-- Heart -->
+  <path d="M100 170C95 170 90 165 90 160C90 155 95 150 100 150C105 150 110 155 110 160C110 165 105 170 100 170Z" fill="#FF5A5F"/>
+  
+  <!-- Eyes -->
+  <circle cx="85" cy="50" r="4" fill="#FFFFFF"/>
+  <circle cx="115" cy="50" r="4" fill="#FFFFFF"/>
+  
+  <!-- Text -->
+  <text x="100" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#333333">BoltSF</text>
+</svg>
